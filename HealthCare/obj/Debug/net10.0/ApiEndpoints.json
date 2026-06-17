@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "HealthCare.Controllers.SettingsController",
+    "Method": "GetDashBoard",
+    "RelativePath": "api/Settings/GetDashBoard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

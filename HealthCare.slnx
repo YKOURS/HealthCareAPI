@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Authentication/Authentication.csproj" />
+  <Project Path="HealthCare/HealthCare.csproj" />
+</Solution>
