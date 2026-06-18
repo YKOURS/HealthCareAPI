@@ -13,8 +13,41 @@
     }
   ],
   "paths": {
+    "/api/Core/GetLookUp": {
+      "get": {
+        "tags": [
+          "Core"
+        ],
+        "parameters": [
+          {
+            "name": "Type",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Settings/GetDashBoard": {
       "get": {
+        "tags": [
+          "Settings"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Settings/DoctorsBulkUpload": {
+      "post": {
         "tags": [
           "Settings"
         ],
@@ -27,6 +60,9 @@
     }
   },
   "tags": [
+    {
+      "name": "Core"
+    },
     {
       "name": "Settings"
     }

@@ -12,6 +12,7 @@ C:\Users\dell\source\repos\HealthCare\Authentication\bin\Debug\net10.0\AutoMappe
 C:\Users\dell\source\repos\HealthCare\Authentication\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\dell\source\repos\HealthCare\Authentication\bin\Debug\net10.0\Azure.Identity.dll
 C:\Users\dell\source\repos\HealthCare\Authentication\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\dell\source\repos\HealthCare\Authentication\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\dell\source\repos\HealthCare\Authentication\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\dell\source\repos\HealthCare\Authentication\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\dell\source\repos\HealthCare\Authentication\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
@@ -62,6 +63,7 @@ C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\Authentic
 C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\Authentication.csproj.CoreCompileInputs.cache
 C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\Authentication.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\Authentication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\Authentication.sourcelink.json
 C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -78,4 +80,3 @@ C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\refint\Au
 C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\Authentication.pdb
 C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\Authentication.genruntimeconfig.cache
 C:\Users\dell\source\repos\HealthCare\Authentication\obj\Debug\net10.0\ref\Authentication.dll
-C:\Users\dell\source\repos\HealthCare\Authentication\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

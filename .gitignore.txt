@@ -1,0 +1,17 @@
+# Visual Studio temporary files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Logs
+*.log
+
+# Secrets
+appsettings.Development.json
+appsettings.Local.json

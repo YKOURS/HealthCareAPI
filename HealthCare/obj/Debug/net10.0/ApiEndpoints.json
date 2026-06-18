@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "HealthCare.Controllers.CoreController",
+    "Method": "GetLookUp",
+    "RelativePath": "api/Core/GetLookUp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCare.Controllers.SettingsController",
+    "Method": "DoctorsBulkUpload",
+    "RelativePath": "api/Settings/DoctorsBulkUpload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HealthCare.Controllers.SettingsController",
     "Method": "GetDashBoard",
     "RelativePath": "api/Settings/GetDashBoard",

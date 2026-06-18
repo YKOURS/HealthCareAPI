@@ -1,6 +1,11 @@
 
+using Authentication.Repo;
+using HealthCare.Data;
+using HealthCare.Domain.Services;
+using HealthCare.Repo;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
 using System.Text;
@@ -34,10 +39,22 @@ builder.Services.AddAuthorization(options =>
 }
 );
 
-
 #endregion
 
+var defaultConnString = builder.Configuration.GetConnectionString("SqlDbConnection");
+
+builder.Services.AddDbContext<HealthCareContext>(options =>
+    options.UseSqlServer(defaultConnString));
+
 // Add services to the container.
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+builder.Services.AddScoped<CoreService>();
+
+builder.Services.AddScoped<SettingService>();
+
+builder.Services.AddAutoMapper(typeof(Program));
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
